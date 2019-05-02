@@ -6,7 +6,7 @@ ssh grader@34.218.246.194 -p 2200 -i grader_key<br>
 url: http://34.218.246.194.xip.io/
 
 ## Firewall
-1) Created Amazon Lightsail instance
+1) Created Amazon EC2 instance
 2) ssh into the machine
 3) change the default ssh port to 2200 
     1) sudo nano /etc/ssh/sshd_config
